@@ -11,7 +11,7 @@ using namespace cv;
 
 int main(){
 
-	Mat Input_Image = imread("Test_Image.png"); // Read Color Image
+	Mat Input_Image = imread("Test_Image.png", 0); // Read Gray Scale Image
 
 	cout << "Image Height: " << Input_Image.rows << ", Image Width: " << Input_Image.cols << ", Image Channels: " << Input_Image.channels() << endl;
 
